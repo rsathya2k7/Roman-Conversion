@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Decimal to Roman Numeral Conversion</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type='text/javascript' src='js/roman.js'></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="login">
+            <h1 class="login-heading"><strong>Welcome.</strong> Roman Conversion.</h1>
+            <form action="javascript:convert();">
+                <label>Enter your convert number here:-</label>
+                <input type="text" name="number" placeholder="Please enter the numbers" id="decimalVal" class="input-txt" />
+                <div>
+                    <p id="errorMessage"></p>
+                </div>
+                <div class="login-footer">
+                    <input type="submit" class="btn btn--right" value="convert" />
+                </div>
+            </form>
+            <br/>
+            <label>Your answer is:-</label>
+            <input type="text" name="answer" placeholder="Your answer" class="input-txt" name="romanVal" id="romanVal" readonly="true" />
+        </div>
+    </div>
+</body>
+  
+</html>
